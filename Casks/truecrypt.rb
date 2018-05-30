@@ -5,7 +5,7 @@ cask 'truecrypt' do
 
   name 'TrueCrypt'
   homepage 'https://opencryptoaudit.org/'
-  license :other # https://en.wikipedia.org/wiki/TrueCrypt#License_and_source_model
+  # license :other # https://en.wikipedia.org/wiki/TrueCrypt#License_and_source_model
 
   depends_on macos: '>= :tiger'
   depends_on cask: 'osxfuse'
